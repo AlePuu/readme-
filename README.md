@@ -14,7 +14,7 @@ git commit | siirtää tiedoston/tiedostot versionhallintaan.\
 git status | kertoo tiedostojen tilan.\
 git log | näyttää kaikki commitit, niitten tekijän ja päiväyksen. \
 git revert | voit palauttaa aijemman commitin. \
-git branch | voit vaihtaa muutoshaaraa tai luoda kokonaan uuden. \
+git branch | voit vaihtaa muutoshaaraa tai luoda kokonaan uuden.
 
 ### 5.	Mikä on muutoksen (commit) ottamisen prosessi?
 Kun halutaan luoda committi eli eräänlainen ”snapshot” pitää ensin olla tiedosto(ja) joita tallettaa. Kun tiedosto(t) on olemassa, ne siirretään ensin indeksiin, eli eräänlaiseen välivarastoon komennolla git add, jonka jälkeen ne voidaan siirtää versiohallinnalle komennolla git commit, jolloin sinulla on olemassa piste, minne palata, jos jokin työnvaihe hajottaa projektin.
